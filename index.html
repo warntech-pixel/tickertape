@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>TradingView Ticker Widget</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: transparent;
+		.tradingview-widget-copyright {
+    display: none !important;
+}
+        }
+    </style>
+</head>
+<body>
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+
+  <!-- COPYRIGHT-BLOCK WURDE ENTFERNT -->
+
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+    "symbols": [
+      { "proName": "AMEX:URTH", "title": "MSCI World" },
+      { "proName": "AMEX:IVV", "title": "S&P 500" },
+      { "proName": "AMEX:IEUR", "title": "MSCI Europe" },
+      { "proName": "AMEX:IPAC", "title": "MSCI Pacific" },
+      { "proName": "FRED:FEDFUNDS", "title": "FED FUNDS" },
+      { "proName": "TVC:DE10Y", "title": "Deutsche Staatsanleihen 10 Jahre" },
+      { "proName": "TVC:US10Y", "title": "US Staatsanleihen 10 Jahre" },
+      { "proName": "TVC:US20Y", "title": "US Staatsanleihen 20 Jahre" },
+      { "proName": "FOREXCOM:EURUSD", "title": "EUR/USD" },
+      { "proName": "FOREXCOM:XAUUSD", "title": "Gold USD" }
+    ],
+    "colorTheme": "light",
+    "locale": "en",
+    "largeChartUrl": "",
+    "isTransparent": false,
+    "showSymbolLogo": true,
+    "displayMode": "adaptive"
+  }
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+</body>
+</html>
